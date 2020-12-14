@@ -1,0 +1,203 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(#fc5e55, #fa4083);
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125em;
+}
+
+.container {
+    width: 1024px;
+    /*background: #670479;*/
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    /*background: #d009b1;*/
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    /* background: #f882e6;*/
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    /*background: #f7c5ef;*/
+    /*min-height: 300px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+}
+
+.herobox1 {
+    /*background: #2093f7; - don't need it anymore, it was only to see exactly the box*/
+    padding-right: 100px;
+    flex: 2;
+    /*ratio*/
+}
+
+.herobox2 {
+    /*background: #4d81af;*/
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25em;
+    font-family: 'playfair Display', serif;
+    margin-bottom: 1em;
+}
+
+p {
+    line-height: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: 'playfair Display', serif;
+}
+
+.herobox1 :first-child {
+    color: blue;
+    text-shadow: 5px 5px 5px #b989b1;
+}
+
+.cards p {
+    font-size: 0.85em;
+    line-height: 1.2em;
+    margin: 10px 30px 20px 30px;
+}
+
+.cards i {
+    font-size: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cards {
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px white solid;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.mybutton {
+    background: white;
+    color: #e6260d;
+    font-family: 'playfair Display', serif;
+    font-weight: bold;
+    padding: 11px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+}
+
+.mybutton:hover {
+    background-color: #22f87d;
+    transition-duration: 2s;
+}
+
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+/*dropdown menu format*/
+
+.dropdown{
+    display: none; position: absolute; z-index: 1; padding-top: 20px; text-align: center; right: 0;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .dropbutton{
+    width: 100%; background-color: white; 
+}
+
+.dropdown .dropbutton a{
+    color: #cb27f2;
+}
+
+.dropdowmn .dropbutton:hover {
+    background: black;
+}
+
+/*start of form - css*/
+
+
+
+
+
+
+
+
+
+
+
